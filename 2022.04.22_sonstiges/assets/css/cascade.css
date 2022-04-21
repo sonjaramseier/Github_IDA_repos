@@ -8,5 +8,17 @@ Todo (Step by Step) -- ohne Styles zu löschen
 */
  
  p {
+     color: green;
+ }
+ 
+ .site-slogan {
      color: blue;
+ }
+ 
+ article h2 {
+     color: red;
+ }
+ 
+ .pred {
+     color: red;
  }
