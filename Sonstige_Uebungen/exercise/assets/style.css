@@ -1,0 +1,148 @@
+            body {
+                background-color: darkolivegreen;
+            }
+            
+            a {
+                color: grey;
+                display: block;
+                transition: all linear 1s;
+                font-size: 1rem;
+                font-family: 'Courier New', 'Courier New', Courier, monospace;
+                border: 1px solid;
+                padding: 0.5rem;
+                box-shadow: 5px 10px 8px 10px rgb(20, 30, 100);
+            }
+            
+            h1 {
+                font-size: 1rem;
+                font-family: 'Courier New', 'Courier New', Courier, monospace;
+                color: white;
+            }
+            
+            #friti {
+                font-family: 'Courier New', Courier, monospace;
+                background-color: orangered;
+                padding: 0.5rem;
+                top: 700px;
+                left: 50px;
+            }
+            
+            #samsti {
+                font-family: 'Courier New', Courier, monospace;
+                background-color: orange;
+                padding: 0.5rem;
+                top: 700px;
+                left: 500px;
+            }
+            
+            #sunnti {
+                font-family: 'Courier New', Courier, monospace;
+                background-color: orangered;
+                padding: 0.5rem;
+                top: 700px;
+                left: 1000px;
+            }
+            
+            #mänti {
+                font-family: 'Courier New', Courier, monospace;
+                background-color: orange;
+                padding: 0.5rem;
+                top: 700px;
+                left: 1500px;
+            }
+            
+            #dsisti {
+                font-family: 'Courier New', Courier, monospace;
+                background-color: orangered;
+                padding: 0.5rem;
+                top: 700px;
+                left: 2000px;
+            }
+            
+            #midwuch {
+                font-family: 'Courier New', Courier, monospace;
+                background-color: orange;
+                padding: 0.5rem;
+                top: 700px;
+                left: 2500px;
+            }
+            
+            #donnsti {
+                font-family: 'Courier New', Courier, monospace;
+                background-color: orangered;
+                padding: 0.5rem;
+                top: 700px;
+                left: 3000px;
+            }
+            
+            #friti:visited {
+                color: white;
+            }
+            
+            #friti:hover {
+                color: white;
+                transform: rotateY(121deg) perspective(700px);
+                transform-origin: center center;
+            }
+            
+            #samsti:hover {
+                color: white;
+                transform: rotateY(121deg) perspective(700px);
+                transform-origin: center center;
+            }
+            
+            #sunnti:hover {
+                color: white;
+                transform: rotateY(121deg) perspective(700px);
+                transform-origin: center center;
+            }
+            
+            #mänti:hover {
+                color: white;
+                transform: rotateY(121deg) perspective(700px);
+                transform-origin: center center;
+            }
+            
+            #dsisti:hover {
+                color: white;
+                transform: rotateY(121deg) perspective(700px);
+                transform-origin: center center;
+            }
+            
+            #midwuch:hover {
+                color: white;
+                transform: rotateY(121deg) perspective(700px);
+                transform-origin: center center;
+            }
+            
+            #donnsti:hover {
+                color: white;
+                transform: rotateY(121deg) perspective(700px);
+                transform-origin: center center;
+            }
+            
+            #home:hover {
+                color: black;
+            }
+            
+            .menu {
+                position: fixed;
+                top: 100px;
+                left: 50px;
+                width: max-content;
+            }
+            
+            .day {
+                position: absolute;
+                left: 350px;
+                width: 350px;
+                transition: all 2s;
+            }
+            
+            html {
+                scroll-behavior: smooth;
+            }
+            
+            div:hover {
+                mix-blend-mode: difference;
+            }
