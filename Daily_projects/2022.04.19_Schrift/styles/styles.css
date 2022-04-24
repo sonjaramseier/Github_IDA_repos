@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+body {
+    font-family: 'Dosis', sans-serif;
+    background-image: linear-gradient(rgba(84, 139, 84, 0.7), rgba(117, 117, 117, 0.7));
+    text-align: center;
+}
+
+h1 {
+    font-size: 7rem;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem;
+}
+
+.haltestelle {
+    font-weight: bolder;
+    font-size: 4rem;
+}
+
+.gefühl {
+    font-style: italic;
+    font-size: 2rem;
+}
