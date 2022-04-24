@@ -1,0 +1,79 @@
+.container {
+    overflow: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.filterDiv {
+    float: left;
+    background-color: rgb(199, 199, 199);
+    color: #ffffff;
+    width: max-content;
+    line-height: 50px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+    /* Hidden by default */
+}
+
+
+/* The "show" class is added to the filtered elements */
+
+.show {
+    display: block;
+}
+
+
+/* Style the buttons */
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* Add a light grey background on mouse-over */
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+
+/* Add a dark background to the active button */
+
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 300px;
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*positioniert die cards nebeneinander*/
+}
+
+img {
+    width: 40%;
+}
+
+.info {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0.5rem;
+}
+
+h4,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /*background-image: url("../img/water_bottle.jpg");*/
+    background-color: whitesmoke;
+}

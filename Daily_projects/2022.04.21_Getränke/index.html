@@ -5,28 +5,296 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Getrunkenes_während_einem_Tag</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script type="text/javascript" src="js/javascript.js"></script>
 </head>
 
-<style>
-    body {
-        background-image: url("img/water_bottle.jpg");
-    }
-</style>
-
 <body>
-    <figure>
-        <img src="img/coffee_cup.jpeg" alt="coffee_cup">
-        <figcaption> coffee_cup</figcaption>
-        <img src="img/coffee_to_go.jpeg" alt="coffee_to_go">
-        <figcaption> coffee_to_go</figcaption>
-        <img src="img/glass.jpg" alt="glass">
-        <figcaption> glass</figcaption>
-        <img src="img/pitcher.jpg" alt="pitcher">
-        <figcaption> pitcher</figcaption>
-        <img src="img/water_bottle.jpg" alt="water_bottle">
-        <figcaption> water_bottle</figcaption>
-    </figure>
+
+    <div id="myBtnContainer ">
+        <button class="btn active " onclick="filterSelection( 'Alles') "> Alles anzeigen</button>
+        <button class="btn " onclick="filterSelection( 'Womit') "> Womit</button>
+        <button class="btn " onclick="filterSelection( 'Was') "> Was</button>
+        <button class="btn " onclick="filterSelection( 'Wann') "> Wann</button>
+        <button class="btn " onclick="filterSelection( 'Wieviel') "> Wieviel</button>
+        <button class="btn " onclick="filterSelection( 'Wo') "> Wo</button>
+        <button class="btn " onclick="filterSelection( 'Wieso') "> Wieso</button>
+    </div>
+
+    <div class="container ">
+        <div class="filterDiv Womit ">Glas</div>
+        <div class="filterDiv Womit ">Kaffeetasse</div>
+        <div class="filterDiv Womit ">Wasserflasche</div>
+        <div class="filterDiv Was ">Wasser</div>
+        <div class="filterDiv Was ">Milchkaffee</div>
+        <div class="filterDiv Was ">Saft</div>
+        <div class="filterDiv Wann ">7:45 Uhr</div>
+        <div class="filterDiv Wann ">7:50 Uhr</div>
+        <div class="filterDiv Wann ">9:40 Uhr</div>
+        <div class="filterDiv Wann ">11:40 Uhr</div>
+        <div class="filterDiv Wann ">11:45 Uhr</div>
+        <div class="filterDiv Wann ">12:15 Uhr</div>
+        <div class="filterDiv Wann ">12:25 Uhr</div>
+        <div class="filterDiv Wann ">12:30 Uhr</div>
+        <div class="filterDiv Wann ">12:40 Uhr</div>
+        <div class="filterDiv Wann ">13:05 Uhr</div>
+        <div class="filterDiv Wann ">13:10 Uhr</div>
+        <div class="filterDiv Wann ">14:40 Uhr</div>
+        <div class="filterDiv Wann ">16:45 Uhr</div>
+        <div class="filterDiv Wann ">19:45 Uhr</div>
+        <div class="filterDiv Wann ">19:45 Uhr</div>
+        <div class="filterDiv Wann ">23:00 Uhr</div>
+        <div class="filterDiv Wieviel ">1 Tropfen</div>
+        <div class="filterDiv Wieviel ">Kleiner Schluck</div>
+        <div class="filterDiv Wieviel ">Einige Schlucke</div>
+        <div class="filterDiv Wieviel ">Viele Schlucke</div>
+        <div class="filterDiv Wieviel ">1/2 Glas</div>
+        <div class="filterDiv Wieviel ">1 Glas</div>
+        <div class="filterDiv Wieviel ">2 Gläser</div>
+        <div class="filterDiv Wieviel ">1 Tasse</div>
+        <div class="filterDiv Wo ">Küche, Olten</div>
+        <div class="filterDiv Wo ">Garderobe Schaulager, Basel</div>
+        <div class="filterDiv Wo ">Eingangshalle Schaulager, Basel</div>
+        <div class="filterDiv Wo ">Vor Schaulager, Basel</div>
+        <div class="filterDiv Wo ">Platz beim HEK, Basel</div>
+        <div class="filterDiv Wo ">WC vom HEK, Basel</div>
+        <div class="filterDiv Wo ">Garderobe HEK, Basel</div>
+        <div class="filterDiv Wo ">Mein Zimmer, Olten</div>
+        <div class="filterDiv Wo ">Wohnzimmer, Olten</div>
+        <div class="filterDiv Wieso ">Durstig</div>
+        <div class="filterDiv Wieso ">Sehr durstig</div>
+        <div class="filterDiv Wieso ">Durstig, Lust</div>
+        <div class="filterDiv Wieso ">Für Koffein</div>
+        <div class="filterDiv Wieso ">Abwechslung während Essen</div>
+        <div class="filterDiv Wieso ">Vorbereitend für Führung</div>
+        <div class="filterDiv Wieso ">Langeweile, unterbewusst</div>
+    </div>
+
+    <div class="card">
+        <figure>
+            <img src="img/glass.jpg " alt="glass ">
+            <figcaption>Womit: Glas</figcaption>
+            <div class="info ">
+                <h2>Was: Wasser</h2>
+                <p>Wann: 7:45 Uhr</p>
+                <p>Wieviel: 1/2 Glas</p>
+                <p>Wo: Küche, Olten</p>
+                <p>Wieso: Durstig</p>
+            </div>
+        </figure>
+    </div>
+
+    <div class="card">
+        <figure>
+            <img src=" img/coffee_cup.jpeg " alt="coffee_cup ">
+            <figcaption>Womit: Kaffeetasse</figcaption>
+            <div class="info ">
+                <h2>Was: Milchkaffee</h2>
+                <p>Wann: 7:50 Uhr</p>
+                <p>Wieviel: 1 Tasse</p>
+                <p>Wo: Küche, Olten</p>
+                <p>Wieso: Für Koffein</p>
+            </div>
+        </figure>
+    </div>
+
+    <div class="card">
+        <figure>
+            <img src="img/water_bottle.jpg " alt="water_bottle ">
+            <figcaption> Womit: Wasserflasche</figcaption>
+            <div class="info ">
+                <h2>Was: Wasser</h2>
+                <p>Wann: 9:40 Uhr</p>
+                <p>Wieviel: Einige Schlucke</p>
+                <p>Wo: Garderobe Schaulager, Basel</p>
+                <p>Wieso: Vorbereitend für Führung</p>
+            </div>
+        </figure>
+    </div>
+
+    <div class="card">
+        <figure>
+            <img src="img/water_bottle.jpg " alt="water_bottle ">
+            <figcaption> Womit: Wasserflasche</figcaption>
+            <div class="info ">
+                <h2>Was: Wasser</h2>
+                <p>Wann: 11:40 Uhr</p>
+                <p>Wieviel: Einige Schlucke</p>
+                <p>Wo: Eingangshalle Schaulager, Basel</p>
+                <p>Wieso: Durstig</p>
+            </div>
+        </figure>
+    </div>
+
+
+    <div class="card">
+        <figure>
+            <img src="img/water_bottle.jpg " alt="water_bottle ">
+            <figcaption> Wasserflasche</figcaption>
+            <div class="info ">
+                <h2>Was: Wasser</h2>
+                <p>Wann: 11:40 Uhr</p>
+                <p>Wieviel: Einige Schlucke</p>
+                <p>Wo: Vor Schaulager, Basel</p>
+                <p>Wieso: Sehr durstig</p>
+            </div>
+        </figure>
+    </div>
+
+    <div class="card">
+        <figure>
+            <img src="img/water_bottle.jpg " alt="water_bottle ">
+            <figcaption> Womit: Wasserflasche</figcaption>
+            <div class="info ">
+                <h2>Was: Wasser</h2>
+                <p>Wann: 12:15 Uhr</p>
+                <p>Wieviel: Einige Schlucke</p>
+                <p>Wo: Platz beim HEK, Basel</p>
+                <p>Wieso: Durstig</p>
+            </div>
+        </figure>
+    </div>
+
+    <div class="card">
+        <figure>
+            <img src="img/water_bottle.jpg " alt="water_bottle ">
+            <figcaption> Womit: Wasserflasche</figcaption>
+            <div class="info ">
+                <h2>Was: Wasser</h2>
+                <p>Wann: 12:25 Uhr</p>
+                <p>Wieviel: Einige Schlucke</p>
+                <p>Wo: Platz beim HEK, Basel</p>
+                <p>Wieso: Abwechslung während Essen</p>
+            </div>
+        </figure>
+    </div>
+
+    <div class="card">
+        <figure>
+            <img src="img/water_bottle.jpg " alt="water_bottle ">
+            <figcaption> Womit: Wasserflasche</figcaption>
+            <div class="info ">
+                <h2>Was: Wasser</h2>
+                <p>Wann: 12:30 Uhr</p>
+                <p>Wieviel: Kleiner Schluck</p>
+                <p>Wo: Platz beim HEK, Basel</p>
+                <p>Wieso: Langeweile, unterbewusst</p>
+            </div>
+        </figure>
+    </div>
+
+    <div class="card">
+        <figure>
+            <img src="img/water_bottle.jpg " alt="water_bottle ">
+            <figcaption> Womit: Wasserflasche</figcaption>
+            <div class="info ">
+                <h2>Was: Wasser</h2>
+                <p>Wann: 12:40 Uhr</p>
+                <p>Wieviel: 1 Tropfen</p>
+                <p>Wo: Platz beim HEK, Basel</p>
+                <p>Wieso: Durstig</p>
+            </div>
+        </figure>
+    </div>
+
+    <div class="card">
+        <figure>
+            <img src="img/water_bottle.jpg " alt="water_bottle ">
+            <figcaption> Womit: Wasserflasche</figcaption>
+            <div class="info ">
+                <h2>Was: Wasser</h2>
+                <p>Wann: 13:05 Uhr</p>
+                <p>Wieviel: Viele Schlucke</p>
+                <p>Wo: WC vom HEK, Basel</p>
+                <p>Wieso: Sehr durstig</p>
+            </div>
+        </figure>
+    </div>
+
+    <div class="card">
+        <figure>
+            <img src="img/water_bottle.jpg " alt="water_bottle ">
+            <figcaption> Womit: Wasserflasche</figcaption>
+            <div class="info ">
+                <h2>Was: Wasser</h2>
+                <p>Wann: 13:10 Uhr</p>
+                <p>Wieviel: Einige Schlucke</p>
+                <p>Wo: Garderobe HEK, Basel</p>
+                <p>Wieso: Vorbereitend für Führung</p>
+            </div>
+        </figure>
+    </div>
+
+    <div class="card">
+        <figure>
+            <img src="img/water_bottle.jpg " alt="water_bottle ">
+            <figcaption> Womit: Wasserflasche</figcaption>
+            <div class="info ">
+                <h2>Was: Wasser</h2>
+                <p>Wann: 14:40 Uhr</p>
+                <p>Wieviel: Einige Schlucke</p>
+                <p>Wo: Garderobe HEK, Basel</p>
+                <p>Wieso: Durstig</p>
+            </div>
+        </figure>
+    </div>
+
+    <div class="card">
+        <figure>
+            <img src="img/water_bottle.jpg " alt="water_bottle ">
+            <figcaption> Womit: Wasserflasche</figcaption>
+            <div class="info ">
+                <h2>Was: Wasser</h2>
+                <p>Wann: 16:45 Uhr</p>
+                <p>Wieviel: Viele Schlucke</p>
+                <p>Wo: Mein Zimmer, Olten</p>
+                <p>Wieso: Durstig</p>
+            </div>
+        </figure>
+    </div>
+
+    <div class="card">
+        <figure>
+            <img src="img/glass.jpg " alt="glass ">
+            <figcaption> Womit: Glas</figcaption>
+            <div class="info ">
+                <h2>Was: Saft</h2>
+                <p>Wann: 19:45 Uhr</p>
+                <p>Wieviel: 1 Glas</p>
+                <p>Wo: Wohnzimmer, Olten</p>
+                <p>Wieso: Durstig, Lust</p>
+            </div>
+        </figure>
+    </div>
+
+    <div class="card">
+        <figure>
+            <img src="img/glass.jpg " alt="glass ">
+            <figcaption> Womit: Glas</figcaption>
+            <div class="info ">
+                <h2>Was: Wasser</h2>
+                <p>Wann: 19:45 Uhr</p>
+                <p>Wieviel: 2 Gläser</p>
+                <p>Wo: Wohnzimmer, Olten</p>
+                <p>Wieso: Abwechslung während Essen</p>
+            </div>
+        </figure>
+    </div>
+
+    <div class="card">
+        <figure>
+            <img src="img/glass.jpg " alt="glass ">
+            <figcaption> Womit: Glas</figcaption>
+            <div class="info ">
+                <h2>Was: Wasser</h2>
+                <p>Wann: 23:00 Uhr</p>
+                <p>Wieviel: 1 Glas</p>
+                <p>Wo: Wohnzimmer, Olten</p>
+                <p>Wieso: Durstig</p>
+            </div>
+        </figure>
+    </div>
 </body>
 
 </html>
