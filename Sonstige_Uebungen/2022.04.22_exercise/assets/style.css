@@ -3,126 +3,137 @@
             }
             
             a {
-                color: grey;
+                color: wheat;
                 display: block;
-                transition: all linear 1s;
-                font-size: 1rem;
+                transition: margin-right 2s, color 1s;
+                font-size: 1.2rem;
                 font-family: 'Courier New', 'Courier New', Courier, monospace;
                 border: 1px solid;
-                padding: 0.5rem;
-                box-shadow: 5px 10px 8px 10px rgb(20, 30, 100);
+                padding: 0.77rem;
+                box-shadow: 5px 5px 5px 5px rgb(20, 30, 100);
+                margin: 2rem;
             }
             
             h1 {
-                font-size: 1rem;
+                font-size: 2rem;
                 font-family: 'Courier New', 'Courier New', Courier, monospace;
-                color: white;
+                color: wheat;
             }
+            
+            p {
+                font-size: 2rem;
+                font-family: 'Courier New', 'Courier New', Courier, monospace;
+                color: wheat;
+            }
+            /*Kärtli*/
             
             #friti {
                 font-family: 'Courier New', Courier, monospace;
                 background-color: orangered;
-                padding: 0.5rem;
-                top: 700px;
-                left: 50px;
+                padding: 1.2rem;
+                /*Position auf Website*/
+                top: 1000px;
+                left: 1100px;
             }
             
             #samsti {
                 font-family: 'Courier New', Courier, monospace;
                 background-color: orange;
-                padding: 0.5rem;
-                top: 700px;
-                left: 500px;
+                padding: 1.2rem;
+                top: 2000px;
+                left: 900px;
             }
             
             #sunnti {
                 font-family: 'Courier New', Courier, monospace;
                 background-color: orangered;
-                padding: 0.5rem;
-                top: 700px;
-                left: 1000px;
+                padding: 1.2rem;
+                top: 3000px;
+                left: 1100px;
             }
             
             #mänti {
                 font-family: 'Courier New', Courier, monospace;
                 background-color: orange;
-                padding: 0.5rem;
-                top: 700px;
-                left: 1500px;
+                padding: 1.2rem;
+                top: 4000px;
+                left: 900px;
             }
             
             #dsisti {
                 font-family: 'Courier New', Courier, monospace;
                 background-color: orangered;
-                padding: 0.5rem;
-                top: 700px;
-                left: 2000px;
+                padding: 1.2rem;
+                top: 5000px;
+                left: 1100px;
             }
             
             #midwuch {
                 font-family: 'Courier New', Courier, monospace;
                 background-color: orange;
-                padding: 0.5rem;
-                top: 700px;
-                left: 2500px;
+                padding: 1.2rem;
+                top: 6000px;
+                left: 900px;
             }
             
             #donnsti {
                 font-family: 'Courier New', Courier, monospace;
                 background-color: orangered;
-                padding: 0.5rem;
-                top: 700px;
-                left: 3000px;
+                padding: 1.2rem;
+                top: 7000px;
+                left: 1100px;
             }
+            /*funktioniert nicht? friti im Menu oder auf Kärtli?*/
             
             #friti:visited {
-                color: white;
+                color: purple;
             }
+            /*Hovers*/
             
             #friti:hover {
-                color: white;
-                transform: rotateY(121deg) perspective(700px);
+                color: rgb(20, 30, 100);
+                transform: rotate(359deg) perspective(700px);
                 transform-origin: center center;
             }
             
             #samsti:hover {
-                color: white;
-                transform: rotateY(121deg) perspective(700px);
+                color: rgb(20, 30, 100);
+                transform: rotate(359deg) perspective(700px);
                 transform-origin: center center;
             }
             
             #sunnti:hover {
-                color: white;
-                transform: rotateY(121deg) perspective(700px);
+                color: rgb(20, 30, 100);
+                transform: rotate(359deg) perspective(700px);
                 transform-origin: center center;
             }
             
             #mänti:hover {
-                color: white;
-                transform: rotateY(121deg) perspective(700px);
+                color: rgb(20, 30, 100);
+                transform: rotate(359deg) perspective(700px);
                 transform-origin: center center;
             }
             
             #dsisti:hover {
-                color: white;
-                transform: rotateY(121deg) perspective(700px);
+                color: rgb(20, 30, 100);
+                transform: rotate(359deg) perspective(700px);
                 transform-origin: center center;
             }
             
             #midwuch:hover {
-                color: white;
-                transform: rotateY(121deg) perspective(700px);
+                color: rgb(20, 30, 100);
+                transform: rotate(359deg) perspective(700px);
                 transform-origin: center center;
             }
             
             #donnsti:hover {
-                color: white;
-                transform: rotateY(121deg) perspective(700px);
+                color: rgb(20, 30, 100);
+                transform: rotate(359deg) perspective(700px);
                 transform-origin: center center;
             }
             
             #home:hover {
-                color: black;
+                color: rgb(20, 30, 100);
             }
             
             .menu {
