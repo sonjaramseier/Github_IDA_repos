@@ -1,0 +1,149 @@
+:root {
+    --Glacé1: rgb(255, 51, 51);
+    --Glacé2: #3f3;
+    --Glacé3: #0000FF;
+    --Glacé4: #f3c;
+    --Glacé5: #3ff;
+    --Glacé6: #ff3;
+    --Glacé7: #eee;
+    --Glacé8: #111;
+    --Glacé9: #999;
+    --background: #ccc;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--background);
+    width: flex;
+    height: 10%;
+}
+
+.flex-item {
+    size: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.513) 5px 5px 10px;
+    /*width: 200px;
+    height: 200px;*/
+}
+
+.img-glacé1 {
+    max-width: 30%;
+    max-height: 50%;
+}
+
+.img-glacé2 {
+    max-width: 30%;
+    max-height: 50%;
+}
+
+.img-glacé3 {
+    max-width: 30%;
+    max-height: 50%;
+}
+
+.img-glacé4 {
+    max-width: 30%;
+    max-height: 50%;
+}
+
+.img-glacé5 {
+    max-width: 30%;
+    max-height: 50%;
+}
+
+.img-glacé6 {
+    max-width: 30%;
+    max-height: 50%;
+}
+
+.img-glacé7 {
+    max-width: 30%;
+    max-height: 50%;
+}
+
+.img-glacé8 {
+    max-width: 30%;
+    max-height: 50%;
+}
+
+.img-glacé9 {
+    max-width: 30%;
+    max-height: 50%;
+}
+
+.p-glacé1 {
+    background-color: var(--Glacé1);
+    align-items: flex-start;
+    order: 0;
+}
+
+.p-glacé2 {
+    background-color: var(--Glacé2);
+    align-items: flex-start;
+    order: 0;
+}
+
+.p-glacé3 {
+    background-color: var(--Glacé3);
+    align-items: flex-start;
+    order: 0;
+}
+
+.p-glacé4 {
+    background-color: var(--Glacé4);
+    align-items: flex-start;
+    order: 0;
+}
+
+.p-glacé5 {
+    background-color: var(--Glacé5);
+    align-items: flex-start;
+    order: 0;
+}
+
+.p-glacé6 {
+    background-color: var(--Glacé6);
+    align-items: flex-start;
+    order: 0;
+}
+
+.p-glacé7 {
+    background-color: var(--Glacé7);
+    align-items: flex-start;
+    order: 0;
+}
+
+.p-glacé8 {
+    background-color: var(--Glacé8);
+    align-items: flex-start;
+    order: 0;
+}
+
+.p-glacé9 {
+    background-color: var(--Glacé9);
+    align-items: flex-start;
+    order: 0;
+}
+
+
+/*.card {
+    width: 25%;
+    margin: 2%;
+    height: 100px;
+    box-shadow: #000 3px 3px 5px;
+    background-color: var(--background);
+}
+
+.food {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    box-shadow: #000 3px 3px 5px;
+    overflow-y: scroll;
+}*/
