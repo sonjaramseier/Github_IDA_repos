@@ -1,0 +1,37 @@
+.specialbutton {
+    /*
+    beispiel properties
+    background-color,
+	border-radius,
+	border,
+	color,
+	font-family,
+	font-size,
+	padding,
+	text-shadow,
+    ...
+    */
+}
+
+.specialbutton:hover {
+    /* status beim hovern,
+    bsp. Farbe verändern
+    */
+}
+
+#element {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.random {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
