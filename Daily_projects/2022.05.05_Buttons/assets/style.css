@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Mirza';
+    src: url('https://raw.githubusercontent.com/Tarobish/Mirza/gh-pages/Fonts/Mirza-Regular.ttf');
+    font-weight: regular;
+}
+
+.specialbutton {
+    font-family: 'Mirza';
+    font-size: 1.5vw;
+    color: rgb(102, 0, 0);
+    border-style: dashed;
+}
+
+.specialbutton:hover {
+    font-style: italic;
+    cursor: pointer;
+}
+
+.bild {
+    position: absolute;
+    padding-top: 100px;
+    width: 130px;
+    height: 200px;
+}
