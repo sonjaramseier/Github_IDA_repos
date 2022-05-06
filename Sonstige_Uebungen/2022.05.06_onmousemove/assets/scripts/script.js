@@ -20,6 +20,7 @@ document.onmousemove = function(e) {
 }
 
 let pointer = document.getElementById('pointer')
+pointer.style.position = 'fixed'
 console.log(pointer)
 
 //animate data
