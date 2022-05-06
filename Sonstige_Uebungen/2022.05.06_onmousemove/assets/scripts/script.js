@@ -1,5 +1,5 @@
 let mouse = []
-let max = 50
+let max = 500
 
 document.onmousemove = function(e) {
     let pos_x = e.clientX
@@ -9,14 +9,13 @@ document.onmousemove = function(e) {
         y: pos_y
     }
 
-    if (mouse.length < max) {
+    if (mouse.length > max) {
         //if amount of data is less than max
-        mouse.push(object)
-    } else {
-        //if amount of data is max or more
-        console.log('too many data points')
+        console.log('array is filled up')
+        mouse.shift()
     }
-    //console.log(mouse)
+    mouse.push(object)
+    console.log(mouse)
 }
 
 let pointer = document.getElementById('pointer')
@@ -41,3 +40,34 @@ function animate() {
         index = 0
     }
 }
+
+// save JSON data
+let save_button = document.querySelector('#save-button');
+
+save_button.addEventListener('click', function() {
+    console.log('clicked');
+    let data = JSON.stringify(mouse);
+    let blob = new Blob([data], { type: 'application/json' });
+    let url = URL.createObjectURL(blob);
+    let a = document.createElement('a');
+    a.href = url;
+    a.download = 'mouse_movements' + Date.now().toString() + '.json';
+    a.click();
+    URL.revokeObjectURL(url);
+})
+
+// load JSON data
+let load_button = document.querySelector('#load-button');
+
+load_button.addEventListener('click', function() {
+    console.log('clicked');
+    let input = load_button.querySelector('input');
+    let file = input.files[0];
+    let reader = new FileReader();
+    reader.onload = (event) => {
+        let data = JSON.parse(event.target.result);
+        mouse_movements = data;
+        console.log(mouse_movements);
+    }
+    reader.readAsText(file);
+})
