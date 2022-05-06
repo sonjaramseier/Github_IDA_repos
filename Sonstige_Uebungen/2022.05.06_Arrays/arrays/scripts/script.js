@@ -49,7 +49,7 @@ div.style.width = object.width + 'px'
 div.style.height = object.height + 'px'
 div.style.top = object.y + 'px'
 div.style.left = object.x + 'px'
-div.style.backgroundcColor = '#f33'
+div.style.backgroundColor = '#f33'
 
 document.body.appendChild(div)
 
