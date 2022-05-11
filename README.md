@@ -1,3 +1,3 @@
 # Github_IDA_repos
 Github IDA Repos
-https://ida-sr.netlify.app/
+https://ida-sonja-ramseier.netlify.app
