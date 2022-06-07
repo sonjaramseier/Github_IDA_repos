@@ -4,31 +4,216 @@ body {
     opacity: 1;
 }
 
+
+/*Titel*/
+
 h1 {
     color: white;
     font-family: 'Roboto Mono', monospace;
+    font-size: 55px;
+    text-shadow: 3px 3px 3px green;
 }
+
+
+/*Untertitel*/
 
 h2 {
     color: white;
     font-family: 'Roboto Mono', monospace;
+    font-size: 27px;
+    text-shadow: 3px 3px 3px green;
 }
 
-p {
+
+/*Beschrieb*/
+
+.beschrieb {
     color: white;
     font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
 }
+
+
+/*Links*/
 
 a {
-    color: white;
     font-family: 'Roboto Mono', monospace;
+    font-size: 11px;
 }
 
-.background img {
+
+/*Text Vordergrund*/
+
+
+/*Textbox links*/
+
+.textli {
+    z-index: 10;
+    width: 250px;
+    height: 100%;
+    margin-left: 8px;
+    margin-top: 0px;
+}
+
+
+/*Verlinkungen*/
+
+.link1 a {
+    background-color: black;
     position: fixed;
-    left: 0;
+    top: 881px;
+    left: 480px;
+    font-weight: bold;
+    color: green;
+}
+
+.link1:hover a {
+    color: white;
+}
+
+.link2 a {
+    background-color: black;
+    position: fixed;
+    top: 692px;
+    left: 474px;
+    font-weight: bold;
+    color: green;
+}
+
+.link2:hover a {
+    color: white;
+}
+
+.link3 a {
+    background-color: black;
+    position: fixed;
+    top: 54px;
+    left: 600px;
+    color: white;
+}
+
+.link3:hover a {
+    color: green;
+}
+
+.link4 a {
+    background-color: black;
+    position: fixed;
+    top: 84px;
+    left: 530px;
+    color: white;
+}
+
+.link4:hover a {
+    color: green;
+}
+
+.link5 a {
+    background-color: black;
+    position: fixed;
+    top: 98px;
+    left: 850px;
+    color: white;
+}
+
+.link5:hover a {
+    color: green;
+}
+
+.link6 a {
+    background-color: black;
+    position: fixed;
+    top: 170px;
+    left: 1200px;
+    color: white;
+}
+
+.link6:hover a {
+    color: green;
+}
+
+.link7 a {
+    background-color: black;
+    position: fixed;
+    top: 185px;
+    left: 800px;
+    color: white;
+}
+
+.link7:hover a {
+    color: green;
+}
+
+.link8 a {
+    background-color: black;
+    position: fixed;
+    top: 287px;
+    left: 900px;
+    color: white;
+}
+
+.link8:hover a {
+    color: green;
+}
+
+.link9 a {
+    background-color: black;
+    position: fixed;
+    top: 287px;
+    left: 1400px;
+    color: white;
+}
+
+.link9:hover a {
+    color: green;
+}
+
+.link10 a {
+    background-color: black;
+    position: fixed;
+    top: 301px;
+    left: 510px;
+    color: white;
+}
+
+.link10:hover a {
+    color: green;
+}
+
+.link11 a {
+    background-color: black;
+    position: fixed;
+    top: 359px;
+    left: 1170px;
+    color: white;
+}
+
+.link11:hover a {
+    color: green;
+}
+
+.link12 a {
+    background-color: black;
+    position: fixed;
+    top: 389px;
+    left: 990px;
+    color: white;
+}
+
+.link12:hover a {
+    color: green;
+}
+
+
+/*Text Hintergrund*/
+
+.daten {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    position: fixed;
     top: 0;
-    width: 100%;
-    height: auto;
-    opacity: 0.2;
+    left: 270px;
+    z-index: -10;
+    font-size: 11px;
+    opacity: 0.15;
 }
