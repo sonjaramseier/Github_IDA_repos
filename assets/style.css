@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body {
+    background-color: black;
+    opacity: 1;
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h2 {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+p {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+a {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.background img {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.2;
+}
