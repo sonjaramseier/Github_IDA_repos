@@ -1,5 +1,5 @@
 # Github_IDA_repos
-Github:
+# Github:
 https://github.com/sonjaramseier/Github_IDA_repos
-Netlify:
+# Netlify:
 https://ida-sonja-ramseier.netlify.app
